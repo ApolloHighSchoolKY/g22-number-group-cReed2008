@@ -10,7 +10,9 @@ public class MultipleGroups implements NumberGroup
     {
         for(NumberGroup x: groupList)
             for(int i: x)
-                if(i=val)
+                if(i==val)
                     return true;
+
+        return false;
     }
 }
